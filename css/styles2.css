@@ -1,0 +1,264 @@
+*{
+margin:0;
+padding:0;
+}
+.navbar
+{
+display:flex;
+align-items:center;
+position:fixed;
+background-color:white;
+top:0;
+width:100%;
+
+}
+.logo
+{
+display:flex;
+margin:7px 40px 10px 60px;
+}
+.logo img
+{
+height:70px;
+}
+.logo p
+{
+font-size:4vh;
+margin:10px 0px 0px 10px;
+}
+.navbar ul
+{
+display:flex;
+position:relative;
+margin:25px 40px 7px 50px;
+}
+.navbar ul li
+{
+list-style:none;
+font-size:3.5vh;
+}
+.navbar ul li a
+{ color:black;
+ font-style:bold;
+margin:0px 20px 0px 30px;
+text-decoration:none;
+}
+.navbar ul li a:hover
+{ font-style:bold;
+ color:white;
+padding:8px 10px 8px 10px;
+background-color:#b38600;
+border-radius:20px;
+}
+.home
+{
+display:flex;
+flex-direction:column;
+margin:2vh 0px 0px 0vh;
+justify-content:center;
+align-items:center;
+#animation:mahesh 10s ease-in-out 2s 2 reverse;
+}
+.home:before
+{
+content:"";
+background:url("/images/download(40).jpg") no-repeat center/cover ;
+position:absolute;
+margin:5vh 0px 0px 0px;
+height:100%;
+width:100%;
+opacity:0.8;
+z-index:-1;
+}
+        .pic{
+            margin-top:50px;
+        }
+        .pic p{
+            color:white;
+            font-size:16px;
+            font-style:bold;
+        }
+        .pic:before {
+            content: "";
+            background: url("/images/service.jpg") no-repeat center/cover;
+            position: absolute;
+            margin: 5vh 0px 0px 0px;
+            height: 40%;
+            width: 100%;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+.services
+{
+margin:8vh;
+}
+
+.services h1
+{
+margin:130px 0vh 1vh 8vh;
+font-size:45px;
+color:white;
+}
+.services hr
+{
+color:black;
+margin:0vh 70vw 0vh 8vh;
+}
+.services .box
+{display:flex;
+justify-content:space-around;
+flex-flow:wrap;
+flex-direction:row;
+margin-top:180px;
+}
+
+.services .box .card
+{#background:yellow;
+width:350px;
+height:340px;
+margin:10px 0vh 10vh 0vh;
+padding:0vh 0vh 10vh 0vh;
+transition:0.3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.services .box .card .logo
+{
+display:flex;
+margin:10px 10px 10px 10px;
+}
+
+.services .box .card .logo img
+{
+width:330px;
+height:230px;
+}
+
+.services .box .card center
+{
+font-size:3.5vh;
+color:#244e96;
+font-weight:bold;
+}
+.services .box .card p
+{
+margin-top:2vh;
+text-align:center;
+color:#67676b;
+} 
+.services .box .card .button
+{
+margin:1vh 22vh 1vh 22vh;
+text-align:center;
+background:#3282B8;
+
+}
+.services .box .card .button a
+{
+font-size:3vh;
+padding:0.5vh;
+color:white;
+font-style:bold;
+text-decoration:none;
+list-style:none;
+}
+
+
+.services .box .card1
+{#background:yellow;
+width:350px;
+height:360px;
+margin:80px 0vh 10vh 0vh;
+padding:0vh 0vh 10vh 0vh;
+transition:0.3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services .box .card1 .logo
+{
+display:flex;
+margin:10px 10px 10px 10px;
+}
+
+.services .box .card1 .logo img
+{
+width:330px;
+height:230px;
+}
+
+.services .box .card1 center
+{
+font-size:3.5vh;
+color:#244e96;
+font-weight:bold;
+}
+.services .box .card1 p
+{
+margin-top:2vh;
+text-align:center;
+color:#67676b;
+} 
+.services .box .card1 .button
+{
+margin:1vh 22vh 1vh 22vh;
+text-align:center;
+background:#3282B8;
+
+}
+.services .box .card1 .button a
+{
+font-size:3vh;
+padding:0.5vh;
+color:white;
+font-style:bold;
+text-decoration:none;
+list-style:none;
+}
+.site-footer {
+        background-color: #26272b;
+        padding: 45px 0 20px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #737373;
+    }
+
+ .site-footer hr {
+            border-top-color: #bbb;
+            opacity: 0.5
+        }
+
+ .site-footer hr.small {
+                margin: 20px 0px 0px 20px;
+            }
+
+    .site-footer h6 {
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 2px
+    }
+.site-footer .footer-links a{
+    color: dimgrey;
+    text-decoration:none;
+}
+.site-footer .row{
+    display:flex;
+}
+.site-footer .cols{
+    margin-left:30px;
+}
+    .site-footer .cols p {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        flex-direction: column;
+        width: 550px;
+        height: 130px;
+        margin: 30px 0vh 10vh 0vh;
+        padding: 0vh 0vh 10vh 0vh;
+    }
+    .site-footer .cols ul{
+        margin-top: 10px;
+    }
