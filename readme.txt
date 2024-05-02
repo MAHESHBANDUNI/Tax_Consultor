@@ -1,1 +1,3 @@
-﻿This is a website development project with the title "Online Consultor". This website is made using HTML & CSS.
+Tax_Consultor is a web application helps a client in getting tax related consultation online from a tax firm. 
+
+Technology used: HTML, CSS, Javascript
